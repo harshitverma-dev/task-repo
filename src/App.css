@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* removing shadow */
+.user-form .form-control:focus {
+  box-shadow: none
+}
+
+.delete-user{
+  color: red;
+  cursor: pointer;
+}
+
+.edit-user{
+  color: #9a7bfc;
+  cursor: pointer;
+}
+
+.main-section button, .save-user{
+  background-color: #9a7bfc !important;
+}
+
+.main-section button:hover, .save-user{
+  background-color: #9a7bfc;
+  cursor: pointer;
+}
+
+.search-container .form-control{
+  border-radius: 20px;
+}
+
+.info-msg .btn-close{
+  background-color: transparent !important;
+}
+
+.info-msg .alert-dismissible .btn-close {
+  padding: 1.50rem 1rem !important;
+  font-size: 12px !important;
+}
+
+.err-msg{
+  color: red;
+  border: 1px solid #ffdada;
+}
